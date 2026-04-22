@@ -1,0 +1,493 @@
+<!doctype html>
+<html class="no-js" lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gói Ghém là landing page giới thiệu thương hiệu bánh truyền thống Việt Nam với trải nghiệm hiện đại, tối giản và cao cấp.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Gói Ghém Bakery">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#1B3022">
+  <title>Gói Ghém - Bánh Truyền Thống Việt</title>
+  <link rel="icon" href="./public/icon_web.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap">
+  </noscript>
+  <link rel="preload" as="image" href="./public/LOGO_WEB.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./src/style.css">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Gói Ghém Bakery",
+      "description": "Thương hiệu bánh truyền thống Việt Nam theo phong cách hiện đại, tối giản và cao cấp.",
+      "telephone": ["0123 456 789", "0987 654 321"],
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "425 Mạc Cửu",
+          "addressLocality": "Rạch Giá",
+          "addressRegion": "An Giang",
+          "addressCountry": "VN"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "217 Chu Văn An",
+          "addressLocality": "Rạch Giá",
+          "addressRegion": "An Giang",
+          "addressCountry": "VN"
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div id="intro" class="intro" aria-hidden="true">
+    <img id="intro-logo" src="./public/LOGO_WEB.svg" alt="Gói Ghém">
+  </div>
+
+  <div id="page-shell" class="page-shell page-shell--pending">
+    <header class="site-header">
+      <nav id="mainNav" class="navbar-floating" aria-label="Điều hướng chính">
+		  <div style="padding-bottom: 3px">
+            <img src="public/LOGO_WEB.svg" alt="Logo SVG" width="60" height="35"/>
+        </div>
+
+        <div class="nav-links">
+          <a href="#home">Trang chủ</a>
+          <a href="#products">Sản phẩm</a>
+          <a href="#about">Thương hiệu</a>
+          <a href="#history">Góc di sản</a>
+          <a href="#contact">Liên hệ</a>
+        </div>
+
+        <div class="nav-actions">
+          <a class="button button--solid button--nav" href="#contact">Đặt bánh ngay</a>
+          <button
+            type="button"
+            class="nav-toggle"
+            data-nav-toggle
+            aria-controls="mobileMenu"
+            aria-expanded="false"
+            aria-label="Mở menu điều hướng"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <div id="mobileMenu" class="mobile-menu" hidden>
+        <a href="#home" data-nav-close>Trang chủ</a>
+        <a href="#products" data-nav-close>Sản phẩm</a>
+        <a href="#about" data-nav-close>Thương hiệu</a>
+        <a href="#history" data-nav-close>Góc di sản</a>
+        <a href="#contact" data-nav-close>Liên hệ</a>
+        <a class="button button--solid mobile-menu__cta" href="#contact" data-nav-close>Đặt bánh ngay</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="hero-orb hero-orb--left" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--right" aria-hidden="true"></div>
+
+        <div class="hero-card reveal">
+          <span class="eyebrow">Nghệ thuật bánh thủ công truyền thống</span>
+          <h1 id="hero-title" class="hero-title">
+            Gói trọn tinh hoa,
+            <br>
+            <span class="hero-highlight"><em>Ghém trọn</em></span> chân tình.</span>
+          </h1>
+          <p class="hero-copy">
+            Tại Gói Ghém, mỗi chiếc bánh không chỉ là thực phẩm. Đó là một bản giao hưởng giữa hương vị tự nhiên của đất trời và đôi bàn tay khéo léo của người nghệ nhân, mang những ký ức xưa cũ vào nhịp sống hiện đại một cách tinh tế nhất.
+          </p>
+
+          <div class="hero-actions reveal" data-reveal-delay="120ms">
+            <a href="#products" class="button button--solid">Khám phá Thực Đơn</a>
+            <a href="#about" class="button button--ghost">Hành trình chúng tôi</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="history" class="apple-section" aria-labelledby="history-title">
+        <div class="apple-sticky">
+          <div class="apple-media">
+            <img
+              id="apple-bg"
+              src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1800"
+              alt="Nghệ nhân Gói Ghém chuẩn bị bánh truyền thống"
+              width="1800"
+              height="1200"
+              fetchpriority="high"
+              decoding="async"
+            >
+          </div>
+
+          <div id="apple-text" class="apple-copy">
+            <span class="eyebrow eyebrow--light">Góc di sản</span>
+            <h2 id="history-title" class="section-title section-title--light">Mỗi chiếc bánh, một lời tri ân.</h2>
+            <p>
+              Gói Ghém bắt nguồn từ niềm khao khát phục dựng lại mỹ thuật trong ẩm thực dân gian. Chúng tôi tin rằng cái ngon không chỉ nằm ở vị giác mà còn ở thị giác và tâm hồn người thưởng thức.
+            </p>
+            <p>
+              Nguồn nguyên liệu được tuyển chọn trực tiếp từ các hộ nông dân: nếp cái hoa vàng từ Nam Định, đường thốt nốt An Giang, hay cốm non từ nghệ nhân Làng Vòng chính gốc.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section products-section" aria-labelledby="products-title">
+        <div class="section-frame">
+          <div class="section-heading reveal">
+            <div>
+              <span class="eyebrow">Thực đơn Gói Ghém</span>
+              <h2 id="products-title" class="section-title">Từ thức quà kinh kỳ đến món ngon miền sông nước.</h2>
+            </div>
+            <p class="section-copy">
+              Mỗi loại bánh đều được chế tác thủ công trong ngày để giữ trọn hương vị, kết cấu và mùi thơm nguyên bản như khi vừa rời bếp.
+            </p>
+          </div>
+
+          <div class="slider-shell reveal" data-reveal-delay="100ms" data-slider>
+            <div class="slider-toolbar">
+              <p class="slider-note">Chọn vị bạn yêu thích, chúng tôi sẽ tư vấn ngay trong ngày.</p>
+              <div class="slider-controls" aria-label="Điều khiển slider sản phẩm">
+                <button type="button" class="slider-control" data-slider-prev aria-label="Xem sản phẩm trước">
+                  <span aria-hidden="true">←</span>
+                </button>
+                <button type="button" class="slider-control" data-slider-next aria-label="Xem sản phẩm tiếp theo">
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-viewport" data-slider-viewport>
+              <div id="sliderTrack" class="slider-track" data-slider-track>
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/banh-com.html" aria-label="Xem chi tiết Bánh Cốm Non Làng Vòng">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1590483736622-39da8af75bba?auto=format&fit=crop&q=80&w=900" alt="Bánh Cốm Non Làng Vòng" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Bán chạy</span>
+                        <span class="product-price">35.000đ</span>
+                      </div>
+                      <h3>Bánh Cốm Non Làng Vòng</h3>
+                      <p>Hương cốm thơm dịu quyện cùng nhân đậu xanh sên mịn, gói trọn mùa thu Hà Nội.</p>
+                    </div>
+                  </a>
+                </article>
+
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/phu-the.html" aria-label="Xem chi tiết Phu Thê Ngũ Sắc">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1615837136318-7b925b42749a?auto=format&fit=crop&q=80&w=900" alt="Phu Thê Ngũ Sắc" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Truyền thống</span>
+                        <span class="product-price">25.000đ</span>
+                      </div>
+                      <h3>Phu Thê Ngũ Sắc</h3>
+                      <p>Màu sắc tự nhiên từ hoa quả, tượng trưng cho sự gắn kết bền chặt của tình nghĩa vợ chồng.</p>
+                    </div>
+                  </a>
+                </article>
+
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/banh-pia.html" aria-label="Xem chi tiết Bánh Pía Sóc Trăng">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1544473489-148c88450ed1?auto=format&fit=crop&q=80&w=900" alt="Bánh Pía Sóc Trăng" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Miền Tây</span>
+                        <span class="product-price">45.000đ</span>
+                      </div>
+                      <h3>Bánh Pía Sóc Trăng</h3>
+                      <p>Vỏ bánh nhiều lớp mỏng tang, nhân sầu riêng tươi quyện trứng muối đậm đà miền Tây.</p>
+                    </div>
+                  </a>
+                </article>
+
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/banh-da-lon.html" aria-label="Xem chi tiết Bánh Da Lợn Lá Dứa">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1621677239306-037380962817?auto=format&fit=crop&q=80&w=900" alt="Bánh Da Lợn Lá Dứa" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Dẻo thơm</span>
+                        <span class="product-price">20.000đ</span>
+                      </div>
+                      <h3>Bánh Da Lợn Lá Dứa</h3>
+                      <p>Từng lớp bánh dẻo thơm mùi lá dứa xen kẽ nhân đậu xanh bùi béo, ngọt thanh tao.</p>
+                    </div>
+                  </a>
+                </article>
+
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/banh-it-la-gai.html" aria-label="Xem chi tiết Bánh Ít Lá Gai">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=900" alt="Bánh Ít Lá Gai" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Đặc sản</span>
+                        <span class="product-price">30.000đ</span>
+                      </div>
+                      <h3>Bánh Ít Lá Gai</h3>
+                      <p>Đặc sản Bình Định với màu đen huyền bí từ lá gai, nhân dừa sợi thơm giòn vừa vặn.</p>
+                    </div>
+                  </a>
+                </article>
+
+                <article class="product-card" data-slide>
+                  <a class="product-card__link" href="./pages/banh-tet.html" aria-label="Xem chi tiết Bánh Tét Trà Cuôn">
+                    <div class="product-media">
+                      <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&q=80&w=900" alt="Bánh Tét Trà Cuôn" width="900" height="1125" loading="lazy" decoding="async">
+                    </div>
+                    <div class="product-body">
+                      <div class="product-meta">
+                        <span class="product-tag">Theo mùa</span>
+                        <span class="product-price">120.000đ</span>
+                      </div>
+                      <h3>Bánh Tét Trà Cuôn</h3>
+                      <p>Bánh tét ba màu nổi tiếng Trà Vinh, đậm đà với nhân thịt ba chỉ và trứng muối.</p>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section" aria-labelledby="about-title">
+        <div class="section-frame about-grid">
+          <div class="about-media reveal">
+            <img
+              src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1200"
+              alt="Nghệ nhân Gói Ghém làm bánh"
+              width="1200"
+              height="1500"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <div class="about-copy reveal" data-reveal-delay="100ms">
+            <span class="eyebrow">Hành trình tâm huyết</span>
+            <h2 id="about-title" class="section-title">Gói trọn ký ức, ghém vào hiện tại.</h2>
+            <p>
+              Câu chuyện của Gói Ghém bắt đầu từ gian bếp nhỏ của bà, nơi khói bếp quẩn quanh những nếp bánh vuông vức mỗi dịp Tết về. Chúng tôi nhận ra rằng, giữa nhịp sống hối hả, những thức quà quê chân phương đang dần bị lãng quên bởi vẻ hào nhoáng của bánh kẹo công nghiệp.
+            </p>
+            <p>
+              Gói Ghém ra đời không chỉ để bán bánh. Chúng tôi ở đây để phục dựng lại những giá trị thẩm mỹ cổ điển. Từ cách phối trộn nguyên liệu không phẩm màu đến việc sử dụng lá chuối, lạt tre thay cho nhựa, mỗi chiếc bánh là lời cam kết về một tương lai bền vững dựa trên nền tảng di sản vững chắc.
+            </p>
+            <p>
+              Chúng tôi tin rằng món ăn ngon nhất là món ăn có linh hồn. Và linh hồn của Gói Ghém chính là sự tỉ mỉ, kiên nhẫn và lòng biết ơn sâu sắc đối với nông sản Việt Nam.
+            </p>
+
+            <div class="signature-card">
+              <div class="signature-mark">Q</div>
+              <div>
+                <strong>Ngô Thuý Quỳnh</strong>
+                <span>Sáng lập & Nghệ nhân tâm huyết</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section values-section" aria-labelledby="values-title">
+        <div class="section-frame">
+          <div class="values-card reveal">
+            <div class="section-heading section-heading--compact">
+              <div>
+                <span class="eyebrow">Tinh thần Gói Ghém</span>
+                <h2 id="values-title" class="section-title">Tinh hoa nguyên bản, chạm tới nhịp sống hiện đại.</h2>
+              </div>
+              <p class="section-copy">
+                Chúng tôi gìn giữ công thức thủ công, tiết chế trải nghiệm thị giác và để chất lượng nguyên liệu trở thành trung tâm của mọi cảm xúc.
+              </p>
+            </div>
+
+            <div class="values-grid">
+              <article>
+                <strong>100%</strong>
+                <span>Tự nhiên</span>
+              </article>
+              <article>
+                <strong>24h</strong>
+                <span>Giao bánh tươi</span>
+              </article>
+              <article>
+                <strong>15+</strong>
+                <span>Loại bánh di sản</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+        <div class="section-frame contact-grid">
+          <div class="contact-info reveal">
+            <span class="eyebrow">Ghé thăm tiệm nhỏ</span>
+            <h4 class="section-title">Không gian trà bánh yên tĩnh giữa lòng <span class="hero-highlight"><em>phố thị</em></span></h4>
+            <p class="hero-copy">
+              Hãy đến để cảm nhận mùi thơm của nếp mới, lá tươi và những mẻ bánh vừa rời bếp trong ngày.
+            </p>
+
+            <div class="newsletter-card">
+              <h3>Đăng ký Bản Tin Gói Ghém</h3>
+              <p class="hero-copy">Nhận những câu chuyện về văn hóa ẩm thực và ưu đãi đặc biệt cho các dịp lễ hội.</p>
+
+              <form id="newsletterForm" class="stack-form" data-static-form>
+                <label class="sr-only" for="newsletterEmail">Email của bạn</label>
+                <div class="field-row">
+                  <input id="newsletterEmail" type="email" name="email" placeholder="Email của bạn" autocomplete="email" required>
+                  <button type="submit" class="button button--solid" data-button-label="Gửi đi">Gửi đi</button>
+                </div>
+                <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+
+          <div class="contact-form-card reveal" data-reveal-delay="120ms">
+            <h3>Đặt bánh</h3>
+            <p>
+              Điền thông tin cơ bản, đội ngũ Gói Ghém sẽ liên hệ để tư vấn số lượng, vị bánh và thời gian giao phù hợp.
+            </p>
+
+            <form id="contactForm" class="contact-form" data-static-form>
+              <label>
+                <span>Họ và tên</span>
+                <input type="text" name="name" placeholder="Tên của bạn" autocomplete="name" required>
+              </label>
+
+              <label>
+                <span>Số điện thoại</span>
+                <input type="tel" name="phone" placeholder="0123 456 789" autocomplete="tel" inputmode="tel" required>
+              </label>
+
+              <label>
+                <span>Loại bánh quan tâm</span>
+                <span class="select-wrap">
+                  <div class="custom-select" data-custom-select>
+                    <select class="native-select" name="product" tabindex="-1" aria-hidden="true">
+                      <option selected>Bánh Cốm</option>
+                      <option>Bánh Phu Thê</option>
+                      <option>Bánh Pía</option>
+                      <option>Bánh Da Lợn</option>
+                      <option>Bánh Ít Lá Gai</option>
+                      <option>Bánh Tét</option>
+                      <option>Đặt theo yêu cầu / Quà tặng DN</option>
+                    </select>
+
+                    <button
+                      type="button"
+                      class="custom-select__trigger"
+                      data-custom-select-trigger
+                      aria-haspopup="listbox"
+                      aria-expanded="false"
+                    >
+                      <span class="custom-select__label" data-custom-select-label>Bánh Cốm</span>
+                      <span class="custom-select__chevron" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="custom-select__menu" data-custom-select-menu role="listbox">
+                      <button type="button" class="custom-select__option is-selected" data-custom-select-option data-value="Bánh Cốm" role="option" aria-selected="true">Bánh Cốm</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Bánh Phu Thê" role="option" aria-selected="false">Bánh Phu Thê</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Bánh Pía" role="option" aria-selected="false">Bánh Pía</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Bánh Da Lợn" role="option" aria-selected="false">Bánh Da Lợn</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Bánh Ít Lá Gai" role="option" aria-selected="false">Bánh Ít Lá Gai</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Bánh Tét" role="option" aria-selected="false">Bánh Tét</button>
+                      <button type="button" class="custom-select__option" data-custom-select-option data-value="Đặt theo yêu cầu / Quà tặng DN" role="option" aria-selected="false">Đặt theo yêu cầu / Quà tặng DN</button>
+                    </div>
+                  </div>
+                </span>
+              </label>
+
+              <label>
+                <span>Lời nhắn</span>
+                <textarea name="message" rows="4" placeholder="Bạn muốn đặt bánh số lượng bao nhiêu hay có yêu cầu đặc biệt nào không?"></textarea>
+              </label>
+
+              <button type="submit" class="button button--solid button--full" data-button-label="Gửi thông tin đặt bánh">Gửi thông tin đặt bánh</button>
+              <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-frame footer-grid">
+        <div class="footer-brand">
+          <a class="footer-brand-link" href="#home" aria-label="Về đầu trang Gói Ghém">
+            <img src="public/LOGO_WEB.svg" alt="Logo SVG" width="60" height="35">
+          </a>
+          <p>
+            Tiệm bánh thủ công gìn giữ những thức quà truyền thống Việt Nam với phong cách thẩm mỹ hiện đại và tư duy bền vững.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h3>Khám phá</h3>
+            <a href="#products">Tất cả sản phẩm</a>
+            <a href="#about">Thương hiệu</a>
+            <a href="#history">Góc di sản</a>
+          </div>
+          <div>
+            <h3>Chăm sóc</h3>
+            <a href="#contact">Đặt bánh</a>
+            <a href="#contact">Liên hệ</a>
+            <a href="#home">Về đầu trang</a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <div>
+            <h3>Địa chỉ</h3>
+            <p>425 Mạc Cửu, P. Rạch Giá, An Giang</p>
+            <p>217 Chu Văn An, P. Rạch Giá, An Giang</p>
+          </div>
+          <div>
+            <h3>Điện thoại</h3>
+            <a href="tel:0123456789">0123 456 789</a>
+            <a href="tel:0987654321">0987 654 321</a>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          <span>© 2026 Gói Ghém</span>
+          <span>Handmade with passion</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./src/modules/intro.js" defer></script>
+  <script src="./src/modules/navbar.js" defer></script>
+  <script src="./src/modules/reveal.js" defer></script>
+  <script src="./src/modules/appleScroll.js" defer></script>
+  <script src="./src/modules/slider.js" defer></script>
+  <script src="./src/main.js" defer></script>
+</body>
+</html>
